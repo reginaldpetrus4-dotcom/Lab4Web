@@ -1,0 +1,196 @@
+/* === Reset & Base === */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  padding: 20px;
+  background: #fafafa;
+  border-bottom: 3px solid #2f4f9d;
+}
+
+header h1 {
+  margin: 0;
+  color: #777;
+}
+
+/* === Navigation === */
+nav {
+  background: #2f4f9d;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  background: #405fcf;
+  border-radius: 4px;
+}
+
+/* === Hero Section === */
+#hero {
+  padding: 40px;
+  text-align: center;
+  background: #e9edf5;
+}
+
+#hero h1 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #2f4f9d;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #405fcf;
+}
+
+.btn-default {
+  background: #ccc;
+  color: #333;
+}
+
+.btn-default:hover {
+  background: #aaa;
+}
+
+/* === Layout Wrapper === */
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#main {
+  flex: 3;
+}
+
+#sidebar {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* === Box Section === */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  transition: 0.3s;
+}
+
+.box:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* === Sidebar === */
+.widget-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.widget-box .title {
+  background: #2f4f9d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px 6px 0 0;
+  margin: -15px -15px 10px -15px;
+}
+
+.widget-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.widget-box ul li {
+  border-bottom: 1px solid #eee;
+}
+
+.widget-box ul li a {
+  display: block;
+  padding: 8px 0;
+  color: #2f4f9d;
+  text-decoration: none;
+}
+
+.widget-box ul li a:hover {
+  text-decoration: underline;
+}
+
+/* === Featurette Section === */
+.entry {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.entry img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.right-img {
+  order: 2;
+}
+
+/* === Divider & Footer === */
+.divider {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+footer {
+  background: #2f4f9d;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+}
